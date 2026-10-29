@@ -1,5 +1,8 @@
 # admire-cli
 
+[![GitHub Sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/aliir74)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/aliir74)
+
 Unofficial command-line client for the [Admire](https://admire.ai) MCP server.
 
 Admire exposes its features to AI tools over MCP. This CLI talks to the same hosted endpoint (`https://app.ca.admire.ai/mcp`), so scripts and coding agents can use Admire without an MCP connection. It builds its commands from the server's tool list, so new Admire tools work without a CLI update.
@@ -51,6 +54,14 @@ Output is JSON on stdout (the tool's structured content, or its text content). `
 | `ADMIRE_SERVER_URL` | MCP endpoint used by `admire login` (default `https://app.ca.admire.ai/mcp`) |
 | `ADMIRE_SUBDOMAIN` | Default organization subdomain; overrides `admire config set subdomain` |
 | `ADMIRE_CONFIG_DIR` | Where credentials, settings and the 24-hour tool cache live |
+
+## Support This Project
+
+If you find this project useful, consider supporting its development:
+
+- Star this repo
+- Report bugs and submit PRs
+- [Sponsor on GitHub](https://github.com/sponsors/aliir74) or [Buy me a coffee](https://www.buymeacoffee.com/aliir74)
 
 ## License
 
